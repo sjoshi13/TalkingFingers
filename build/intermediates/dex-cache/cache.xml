@@ -7,98 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f7d6ed60fd2a173d02d3990d3da34d925ffd790d">
+        sha1="12d437e5885aea728a4717c5060c33244451bd38">
         <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8f40d5bbefc82bc87533e13faf035b06f9f47b81\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\2dabbe13d4df4d8905b97f75e249dae81c6dcc31\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_88ceae68df3ef17cf4c91f9eb7cc9f3c024e32b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\2bba4cb4930463095ce199fefae3d6173c274aad\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_794849a819d8d56bdd74e9033df410200d33c0ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_7fdf277f8f701c99d5aa293f3f74ae16a7b9183a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\f730a9f1180244e9c6f595b36d788e1539dcf875\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_23738ede657a540336b70f045de4d7de62b32fe7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\bbb49482eb74c7f79c1eef6250747307b05e1b00\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_01c7f37e1d6403b0d84c2c285316b97f66ef61b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\befad40b3e21df520c499f90ae06c8096d97278e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_352f0011721cdc800f5f735e5d95111a42ddb3d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\54175bd1f6f1ded9274c1cae9f3c0845a2cea117\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_3f5d193984c197d0b709f547773b3e0b1c2593cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\e106afca983aed576165389f5ebf2ed2f80f026a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_f832629e5ace31409a63822919df74cfe626498b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\1c1cc9c9cd75eb798547e52463a8b801ffb4ea17\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_f659a1d0c1ae63fa508e707b29d20a04168fa44a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_a0f06a662a441d19661eabc0f23214233931ba32.jar" />
     </item>
     <item
         is-multidex="true"
@@ -108,24 +18,6 @@
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c3b2c94c7fbb77d9295a3674173311722c647d4a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\ca4d9f1ffbcc3c660c60299450c835b98ed4a559\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_001d16025ec2035fb8f8eee8a9d208a9a8e0e7ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ASUS\.android\build-cache\9608e7c2322113226951b11050390d5bb7a93de7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\ASUS\Desktop\sih\Android_Application\app\build\intermediates\pre-dexed\debug\classes_31c9354ee4ea29e9e29088f72b83664e1fd6a956.jar" />
     </item>
 
 </items>
