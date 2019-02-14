@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,12 +16,15 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
 	private TextView txvResult;
-
+    private EditText text_input;
+    private Button get_text_input;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		txvResult = (TextView) findViewById(R.id.txvResult);
+		text_input = (EditText) findViewById(R.id.Input_text);
+		get_text_input = (Button) findViewById(R.id.Input_text_done);
 	}
 
 	public void getSpeechInput(View view) {

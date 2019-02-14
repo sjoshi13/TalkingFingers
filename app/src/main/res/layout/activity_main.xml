@@ -11,7 +11,7 @@
 		android:layout_alignParentTop="true"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="100dp"
-		android:textColor="#000"
+
 		android:textSize="26sp"
 		android:textStyle="normal"/>
 
@@ -20,10 +20,43 @@
 		android:layout_width="100dp"
 		android:layout_height="100dp"
 		android:layout_alignParentBottom="true"
-		android:layout_centerHorizontal="true"
-		android:layout_marginBottom="60dp"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="52dp"
+		android:layout_marginStart="47dp"
 		android:gravity="center"
 		android:onClick="getSpeechInput"
-		android:src="@drawable/ic_mic"/>
+		android:src="@drawable/ic_mic" />
 
+	<TextView
+		android:id="@+id/textView_speak"
+		android:layout_width="76dp"
+		android:layout_height="32dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="8dp"
+		android:layout_marginStart="56dp"
+		android:text="Record"
+		android:textAlignment="center"
+		android:textColor="@color/colorPrimaryDark"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<EditText
+		android:layout_width="199dp"
+		android:id="@+id/Input_text"
+		android:layout_height="62dp"
+		android:layout_alignBottom="@+id/btnSpeak"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="32dp"
+		android:hint="Write here"
+		android:layout_marginStart="185dp" />
+
+	<Button
+		android:id="@+id/Input_text_done"
+		android:layout_width="148dp"
+		android:layout_height="66dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginEnd="35dp"
+		android:text="Done" />
 </RelativeLayout>
