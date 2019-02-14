@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,7 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 	private TextView txvResult;
     private EditText text_input;
@@ -25,8 +26,22 @@ public class MainActivity extends AppCompatActivity {
 		txvResult = (TextView) findViewById(R.id.txvResult);
 		text_input = (EditText) findViewById(R.id.Input_text);
 		get_text_input = (Button) findViewById(R.id.Input_text_done);
+		get_text_input.setOnClickListener( this);
+	}
+public void getTextInput(){
+		String input = text_input.getText().toString().trim();
+	if(TextUtils.isEmpty(input)){
+		Toast.makeText(this,"Enter email", Toast.LENGTH_SHORT).show();
+		return;
 	}
 
+}
+	public void onClick(View v) {
+		if(v==get_text_input)
+		{
+			txvResult.setText(text_input.getText().toString().trim());
+		}
+		}
 	public void getSpeechInput(View view) {
 
 		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
