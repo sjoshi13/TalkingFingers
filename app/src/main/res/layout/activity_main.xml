@@ -21,8 +21,8 @@
 		android:layout_height="100dp"
 		android:layout_alignParentBottom="true"
 		android:layout_alignParentStart="true"
-		android:layout_marginBottom="52dp"
-		android:layout_marginStart="47dp"
+		android:layout_marginBottom="142dp"
+		android:layout_marginStart="17dp"
 		android:gravity="center"
 		android:onClick="getSpeechInput"
 		android:src="@drawable/ic_mic" />
@@ -31,10 +31,9 @@
 		android:id="@+id/textView_speak"
 		android:layout_width="76dp"
 		android:layout_height="32dp"
-		android:layout_alignParentBottom="true"
-		android:layout_alignParentStart="true"
-		android:layout_marginBottom="8dp"
-		android:layout_marginStart="56dp"
+		android:layout_alignEnd="@+id/btnSpeak"
+		android:layout_below="@+id/btnSpeak"
+		android:layout_marginTop="-142dp"
 		android:text="Record"
 		android:textAlignment="center"
 		android:textColor="@color/colorPrimaryDark"
@@ -55,16 +54,15 @@
 		android:id="@+id/Input_text_done"
 		android:layout_width="148dp"
 		android:layout_height="66dp"
+		android:layout_alignEnd="@+id/videoView"
 		android:layout_alignParentBottom="true"
-		android:layout_alignParentEnd="true"
-		android:layout_marginEnd="35dp"
-		android:text="Done" />
+		android:text="Convert" />
 
 	<VideoView
 		android:id="@+id/videoView"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_alignParentStart="true"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
 		android:layout_alignParentTop="true"
-		android:layout_marginTop="128dp" />
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="126dp" />
 </RelativeLayout>
