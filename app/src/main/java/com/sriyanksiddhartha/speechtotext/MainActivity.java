@@ -16,7 +16,8 @@ import android.widget.Toast;
 import android.widget.VideoView;
 import java.util.ArrayList;
 import java.util.Locale;
-
+import opennlp.tools.sentdetect.SentenceDetectorME;
+import opennlp.tools.sentdetect.SentenceModel;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 	private TextView txvResult;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 public void getTextInput(){
 
 		String input = text_input.getText().toString().trim();
+
 	if(TextUtils.isEmpty(input)){
 		Toast.makeText(this,"Enter email", Toast.LENGTH_SHORT).show();
 		return;
