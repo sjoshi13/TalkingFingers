@@ -45,6 +45,7 @@ public void getTextInput(){
 	public void onClick(View v) {
 		if(v==get_text_input)
 		{
+		    txvResult.clearComposingText();
 			txvResult.setText(text_input.getText().toString().trim());
 		}
 		String inputt = text_input.getText().toString().trim();
@@ -56,26 +57,33 @@ public void getTextInput(){
 		//System.out.println(videopath);
 		//System.out.println(vid);
 
-int i=0;
-
+        int i=0,c=0;
+        int l=tokens.length;
+        final Uri all_uri [] = new Uri[l];
         for(String input : tokens) {
-        	System.out.print("here");
+
+			System.out.print("here");
 			//  String str = "countdown"; //Suppose input word is "countdown"
 			int videoResource = getResources().getIdentifier(input, "raw", getPackageName()); //calculating id for that video name
 			String path = "android.resource://" + getPackageName() + "/" + videoResource; //using the id found above for the required video
 			Uri uri = Uri.parse(path);
-			output_video.setVideoURI(uri);
+			all_uri[c++] = uri;
+		}
+		System.out.print(all_uri);
+		for(int c1=0;c1<l-1;c1++){
+			Uri x=all_uri[c1];
+			final int g=c1;
+			output_video.setVideoURI(x);
 			output_video.start();
             output_video.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
 				@Override
-				public void onCompletion(MediaPlayer mediaPlayer) {
-					Toast.makeText(this, "Your Device Don't Support Speech Input", Toast.LENGTH_SHORT).show();
+				public void onCompletion(MediaPlayer mp) {
+					Toast.makeText(getApplicationContext(),"complete",Toast.LENGTH_SHORT).show();
+                      output_video.setVideoURI(all_uri[g+1]);
+                      output_video.start();
 
 				}
 			});
-
-
-
 		}
 
 		}
