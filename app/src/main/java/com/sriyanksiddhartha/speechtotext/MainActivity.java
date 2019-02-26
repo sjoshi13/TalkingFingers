@@ -64,11 +64,13 @@ public void getTextInput(){
         final Uri all_uri [] = new Uri[l];
         for(String input : tokens) {
 
-			System.out.print("here");
+		//	System.out.print("here");
 			//  String str = "countdown"; //Suppose input word is "countdown"
 			int videoResource = getResources().getIdentifier(input, "raw", getPackageName()); //calculating id for that video name
 			String path = "android.resource://" + getPackageName() + "/" + videoResource; //using the id found above for the required video
 			Uri uri = Uri.parse(path);
+			output_video.setVideoURI(uri);
+			output_video.start();
 			all_uri[c++] = uri;
 		}
 		System.out.print(all_uri);
@@ -98,7 +100,7 @@ public void getTextInput(){
 		if (intent.resolveActivity(getPackageManager()) != null) {
 			startActivityForResult(intent, 10);
 		} else {
-			Toast.makeText(this, "Your Device Don't Support Speech Input", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "Your Device Doesn't Support Speech Input", Toast.LENGTH_SHORT).show();
 		}
 	}
 

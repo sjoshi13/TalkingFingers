@@ -1,3 +1,7 @@
 <resources>
 	<string name="app_name">Speech To Text</string>
+
+	<string name="record">Record</string>
+	<string name="button_convert">Convert</string>
+	<string name="txtinpt">Enter text to be converted.</string>
 </resources>

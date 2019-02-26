@@ -34,7 +34,7 @@
 		android:layout_alignEnd="@+id/btnSpeak"
 		android:layout_below="@+id/btnSpeak"
 		android:layout_marginTop="-142dp"
-		android:text="Record"
+		android:text="@string/record"
 		android:textAlignment="center"
 		android:textColor="@color/colorPrimaryDark"
 		android:textSize="20sp"
@@ -47,20 +47,20 @@
 		android:layout_alignBottom="@+id/btnSpeak"
 		android:layout_alignParentStart="true"
 		android:layout_marginBottom="32dp"
-		android:hint="Write here"
+		android:hint="@string/txtinpt"
 		android:layout_marginStart="185dp" />
 
 	<Button
 		android:id="@+id/Input_text_done"
 		android:layout_width="148dp"
 		android:layout_height="66dp"
-		android:layout_alignEnd="@+id/videoView"
 		android:layout_alignParentBottom="true"
-		android:text="Convert" />
+		android:layout_centerHorizontal="true"
+		android:text="@string/button_convert" />
 
 	<VideoView
 		android:id="@+id/videoView"
-		android:layout_width="100dp"
+		android:layout_width="166dp"
 		android:layout_height="100dp"
 		android:layout_alignParentTop="true"
 		android:layout_centerHorizontal="true"
